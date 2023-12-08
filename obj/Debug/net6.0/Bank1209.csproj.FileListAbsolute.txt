@@ -1,0 +1,14 @@
+C:\Users\hanad\source\repos\Bank1209\obj\Debug\net6.0\Bank1209.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hanad\source\repos\Bank1209\obj\Debug\net6.0\Bank1209.AssemblyInfoInputs.cache
+C:\Users\hanad\source\repos\Bank1209\obj\Debug\net6.0\Bank1209.AssemblyInfo.cs
+C:\Users\hanad\source\repos\Bank1209\obj\Debug\net6.0\Bank1209.csproj.CoreCompileInputs.cache
+C:\Users\hanad\source\repos\Bank1209\bin\Debug\net6.0\Bank1209.exe
+C:\Users\hanad\source\repos\Bank1209\bin\Debug\net6.0\Bank1209.deps.json
+C:\Users\hanad\source\repos\Bank1209\bin\Debug\net6.0\Bank1209.runtimeconfig.json
+C:\Users\hanad\source\repos\Bank1209\bin\Debug\net6.0\Bank1209.dll
+C:\Users\hanad\source\repos\Bank1209\bin\Debug\net6.0\Bank1209.pdb
+C:\Users\hanad\source\repos\Bank1209\obj\Debug\net6.0\Bank1209.dll
+C:\Users\hanad\source\repos\Bank1209\obj\Debug\net6.0\refint\Bank1209.dll
+C:\Users\hanad\source\repos\Bank1209\obj\Debug\net6.0\Bank1209.pdb
+C:\Users\hanad\source\repos\Bank1209\obj\Debug\net6.0\Bank1209.genruntimeconfig.cache
+C:\Users\hanad\source\repos\Bank1209\obj\Debug\net6.0\ref\Bank1209.dll
