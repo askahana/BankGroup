@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Bank1209
 {
-    internal class LoginSystem
+    internal class LoginSystem : ILogin
     {
         public User Login()
         {
-            
             User loggedInCustomer = null;
             int loginAttempts = 0;
             int maxLoginAttempts = 3; // Assuming a maximum of 3 login attempts

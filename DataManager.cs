@@ -8,7 +8,7 @@ namespace Bank1209
 {
     internal static class DataManager
     {
-        public static Dictionary<string, User> userList = new Dictionary<string, User>();
+        public static Dictionary<string, User> userList = new Dictionary<string, User>();  // Är det bättre med ID?
         static DataManager()
         {
             Initialize();
@@ -17,8 +17,12 @@ namespace Bank1209
         {
             User cus1 = new Customer
             {
-                UserName = "cus1",
-                PassWord = "Custmer!1",
+                UserName = "User1",
+                IDNumber = 5001,
+                FirstName = "Johan",
+                LastName = "Johansson",
+                PassWord = "Passwords1!",
+                Birthday = "1978-01-01",
                 Accounts = new List<Account>
                 {
                         new Account(50028977, "MainAccount", "SEK", 1234M),
@@ -27,22 +31,44 @@ namespace Bank1209
             };
             User cus2 = new Customer()
             {
-                UserName = "cu2",
-                PassWord = "Customer!1",
+                UserName = "User2",
+                IDNumber = 5002,
+                FirstName = "Anna",
+                LastName = "Andersson",
+                PassWord = "Password2!",
+                Birthday = "1988-01-01",
                 Accounts = new List<Account>
                 {
                     new Account(12344556, "MainAccount", "SEK", 2345M),
                     new Account(23455678, "SavingAccount", "EUR", 2345M),
                 }
             };
+            User cus3 = new Customer()
+            {
+                UserName = "User3",
+                IDNumber = 5003,
+                FirstName = "Alice",
+                LastName = "Karlsson",
+                PassWord = "Password3!",
+                Email = "Akuce@Karlsson.se",
+                Birthday = "1998-01-01",
+                Accounts = new List<Account>
+                {
+
+                }
+            };
             User ad1 = new Admin()
             {
                 UserName = "Admin1",
+                IDNumber = 1001,
+                FirstName = "Karl",
+                LastName = "Karssib",
                 PassWord = "Admin!1",
             };
-            userList.Add("cus1", cus1);
+            userList.Add("User1", cus1);
             userList.Add("Admin1", ad1);
-            userList.Add("cus2", cus2);
+            userList.Add("User2", cus2);
+            userList.Add("User3", cus3);
         }
 
     }

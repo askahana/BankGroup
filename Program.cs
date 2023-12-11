@@ -4,7 +4,6 @@
     {
         static void Main(string[] args)
         {
-            //ShowAllCustomer.ShowAll();
             AccountManagementSystem.Assign();
         }
     }

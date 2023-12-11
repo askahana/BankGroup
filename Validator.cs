@@ -8,7 +8,6 @@ namespace Bank1209
 {
     internal class Validator
     {
-
         public static int GetValidInt()
         {
             int choice;

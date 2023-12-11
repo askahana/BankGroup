@@ -6,35 +6,31 @@ using System.Threading.Tasks;
 
 namespace Bank1209
 {
-    internal class ShowAllCustomer
+    internal class ShowAllCustomer          // ShowBalance sounds similer. Maybe they can exisit in the same class or not...
     {
-        public static void ShowAll()
+        public static void ShowAllInfo()        // Show all customers all info.
         {
-                foreach (KeyValuePair<string, User> user in DataManager.userList)
-                 {
+            foreach (KeyValuePair<string, User> user in DataManager.userList)
+            {
                 Console.WriteLine($"UserName: {user.Value.UserName}");
-                Console.WriteLine($"Password: {user.Value.PassWord}"); 
-                    if (user.Value is Customer customer && customer.Accounts != null)
+                Console.WriteLine($"Password: {user.Value.PassWord}");
+                if (user.Value is Customer customer && customer.Accounts != null)
+                {
+                    Console.WriteLine("Accounts:");
+                    foreach (Account account in customer.Accounts)
                     {
-                        Console.WriteLine("Accounts:");
-                        foreach (Account account in customer.Accounts)
-                        {
-                            Console.WriteLine($"Account Number: {account.AccountNumber}");
-                            Console.WriteLine($"Account Name: {account.AccountName}");
-                            Console.WriteLine($"Balance: {account.Balance}");
-                            Console.WriteLine($"Currency: {account.Currency}");
-                        }
+                        Console.WriteLine($"Account Number: {account.AccountNumber}");
+                        Console.WriteLine($"Account Name: {account.AccountName}");
+                        Console.WriteLine($"Balance: {account.Balance}");
+                        Console.WriteLine($"Currency: {account.Currency}");
                     }
-                    else
-                    {
-                        Console.WriteLine("No accounts for this user.");
-                    }
-                    Console.WriteLine("---------------------------");
-                    }
-                
-            
-
-
+                }
+                else
+                {
+                    Console.WriteLine("No accounts for this user.");
+                }
+                Console.WriteLine("---------------------------");
+            }
         }
     }
 }
