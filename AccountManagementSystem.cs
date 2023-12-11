@@ -8,12 +8,13 @@ namespace Bank1209
 {
     internal class AccountManagementSystem
     {
-        public static void Assign()      
+        public static void Assign()
         {
             LoginSystem log = new LoginSystem();
             User user = log.Login();
-            CustomerManager cus = new CustomerManager();
-            AdminManager ad = new AdminManager();
+            CustomerManager cus = new CustomerManager(log);
+            AdminManager ad = new AdminManager(log);
+
             if (user is Customer)
             {
                 cus.Meny(user);
@@ -26,6 +27,9 @@ namespace Bank1209
             {
                 Console.WriteLine("Who are you?");
             }
+
+            // Efter att användaren har loggat in och du vet dess roll, kan du anropa RegisterCustomer här
+            RegisterNewCustomer.RegisterCustomer(log);
         }
         //public static void Assign2()
         //{
