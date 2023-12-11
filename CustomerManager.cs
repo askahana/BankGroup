@@ -18,7 +18,7 @@ namespace Bank1209
                 {
                     case 1:
                         ShowBalance.ShowAccount(loggedIn);
-                        break;
+                       break;
                     case 2:
                         Console.WriteLine("Out of order.");
                         Console.ReadKey();
@@ -28,7 +28,7 @@ namespace Bank1209
                         Console.ReadKey();
                         break;
                     case 4:
-                        Console.WriteLine("Out of order.");
+                        AccountManager.AddAccount(loggedIn);
                         Console.ReadKey();
                         break;
                     case 5:

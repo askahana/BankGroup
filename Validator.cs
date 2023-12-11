@@ -89,5 +89,31 @@ namespace Bank1209
                 }
             }
         }
+
+        internal static int GetValidInt(string prompt, int minValue, int maxValue)
+        {
+            int userInput;
+
+            while (true)
+            {
+                Console.Write(prompt);
+
+                if (int.TryParse(Console.ReadLine(), out userInput))
+                {
+                    if (userInput >= minValue && userInput <= maxValue)
+                    {
+                        return userInput;
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Please enter a number between {minValue} and {maxValue}.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input. Please enter a valid number.");
+                }
+            }
+        }
     }
 }
