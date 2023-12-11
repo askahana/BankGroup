@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hanad\\source\\repos\\Bank1209\\Bank1209.csproj": {}
+    "C:\\Users\\fille\\Source\\Repos\\BankGroup\\Bank1209.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hanad\\source\\repos\\Bank1209\\Bank1209.csproj": {
+    "C:\\Users\\fille\\Source\\Repos\\BankGroup\\Bank1209.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hanad\\source\\repos\\Bank1209\\Bank1209.csproj",
+        "projectUniqueName": "C:\\Users\\fille\\Source\\Repos\\BankGroup\\Bank1209.csproj",
         "projectName": "Bank1209",
-        "projectPath": "C:\\Users\\hanad\\source\\repos\\Bank1209\\Bank1209.csproj",
-        "packagesPath": "C:\\Users\\hanad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hanad\\source\\repos\\Bank1209\\obj\\",
+        "projectPath": "C:\\Users\\fille\\Source\\Repos\\BankGroup\\Bank1209.csproj",
+        "packagesPath": "C:\\Users\\fille\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fille\\Source\\Repos\\BankGroup\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hanad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\fille\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
